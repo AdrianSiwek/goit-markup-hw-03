@@ -308,6 +308,12 @@ body {
   text-align: left;
 }
 
+.information-contact-link:active,
+.information-contact-link:hover,
+.information-contact-link:focus {
+  color: var(--brand-mlight-color);
+}
+
 /*menu*/
 .menu {
   display: flex;
