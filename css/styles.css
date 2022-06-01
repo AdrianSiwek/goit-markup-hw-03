@@ -27,6 +27,8 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
@@ -34,6 +36,7 @@ body {
   padding-bottom: 94px;
 }
 
+/*header*/
 .buttons {
   height: 80px;
   display: flex;
@@ -103,6 +106,7 @@ body {
   color: var(--brand-mlight-color);
 }
 
+/*baner*/
 .description {
   display: flex;
   background: var(--brand-two-color);
@@ -208,7 +212,7 @@ body {
 
 .team-component {
   list-style: none;
-  display: inline-flex;
+  display: flex;
   justify-content: center;
 }
 
